@@ -1,0 +1,107 @@
+body{
+    width:800px;
+    margin:0 auto;
+    border:3px double saddlebrown;
+    background-color:antiquewhite;
+    color:#3b2a1a;
+    font-family:Georgia, serif;
+}
+
+/* Cabecera */
+header{
+    background-color:#3b2a1a;
+    color:wheat;
+    text-align:center;
+    padding:20px;
+    border-bottom:5px solid goldenrod;
+}
+header h2{
+    color:goldenrod;
+    font-weight:normal;
+}
+
+/* Menú */
+ul{
+    padding:0;
+}
+nav li{
+    display:inline-block;
+    width:calc(100%/7 - 5px);
+    height:50px;
+    font-size:11px;
+    text-align:center;
+    color:white;
+}
+li.menu1{
+    background-color:firebrick;
+}
+li.menu2{
+    background-color:darkgoldenrod;
+}
+li.menu3{
+    background-color:olive;
+}
+li.menu4{
+    background-color:sienna;
+}
+li.menu5{
+    background-color:darkslategray;
+}
+li.menu6{
+    background-color:chocolate;
+}
+li.menu7{
+    background-color:maroon;
+}
+nav li:hover{
+    background-color:goldenrod;
+    color:black;
+}
+
+a{
+    text-decoration:none;
+    color:inherit;
+}
+
+section{
+    text-align:center;
+}
+section h2{
+    color:saddlebrown;
+    border-bottom:2px solid goldenrod;
+}
+
+/* Tarjetas */
+article{
+    background-color:floralwhite;
+    border:2px solid saddlebrown;
+    margin:20px;
+    padding:15px;
+}
+article h3{
+    color:saddlebrown;
+}
+article ul{
+    text-align:left;
+}
+article:target{
+    background-color:lemonchiffon;
+}
+
+/* Imágenes */
+img{
+    width:250px;
+    border:8px solid saddlebrown;
+}
+article:target img{
+    width:350px;
+    border-color:goldenrod;
+}
+
+footer{
+    background-color:#3b2a1a;
+    color:wheat;
+    text-align:center;
+    padding:10px;
+    border-top:5px solid goldenrod;
+}
