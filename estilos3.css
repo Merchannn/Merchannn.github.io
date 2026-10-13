@@ -22,7 +22,7 @@ header h2{
 
 /* Menú */
 ul{
-    padding:0;
+    padding-left:25px;
 }
 nav li{
     display:inline-block;
