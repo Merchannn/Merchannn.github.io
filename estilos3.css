@@ -106,3 +106,11 @@ footer{
     padding:10px;
     border-top:5px solid goldenrod;
 }
+
+footer img {
+    width: 24px;  /* Tamaño pequeño y discreto para el pie de página */
+    height: 24px; /* Mismo tamaño para que sean perfectamente simétricos */
+    object-fit: contain; /* Evita que las imágenes se deformen */
+    margin: 0 10px; /* Añade un espacio horizontal entre cada logo */
+    vertical-align: middle; /* Alinea los logos correctamente con el texto */
+}
