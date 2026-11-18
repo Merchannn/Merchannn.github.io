@@ -34,25 +34,25 @@ nav li{
     color:white;
 }
 li.menu1{
-    background-color:firebrick;
+     background-color:#3b2a1a;
 }
 li.menu2{
-    background-color:darkgoldenrod;
+    background-color:#3b2a1a;
 }
 li.menu3{
-    background-color:olive;
+    background-color:#3b2a1a;
 }
 li.menu4{
-    background-color:sienna;
+    background-color:#3b2a1a;
 }
 li.menu5{
-    background-color:darkslategray;
+    background-color:#3b2a1a;
 }
 li.menu6{
-    background-color:chocolate;
+    background-color:#3b2a1a;
 }
 li.menu7{
-    background-color:maroon;
+    background-color:#3b2a1a;
 }
 nav li:hover{
     background-color:goldenrod;
@@ -108,9 +108,32 @@ footer{
 }
 
 footer img {
-    width: 24px;  /* Tamaño pequeño y discreto para el pie de página */
-    height: 24px; /* Mismo tamaño para que sean perfectamente simétricos */
-    object-fit: contain; /* Evita que las imágenes se deformen */
-    margin: 0 10px; /* Añade un espacio horizontal entre cada logo */
-    vertical-align: middle; /* Alinea los logos correctamente con el texto */
+    width: 24px;  
+    height: 24px; 
+    object-fit: contain; 
+    margin: 0 10px; 
+    vertical-align: middle; 
+}
+/* Migas de pan transparentes dentro de la cabecera */
+nav.migas {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    text-align: left;
+    color: wheat;
+}
+
+nav.migas a {
+    color: goldenrod;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav.migas a:hover {
+    text-decoration: underline;
+}
+
+nav.migas span {
+    color: wheat;
 }
